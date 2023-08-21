@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--gray-75: #3b3b4f;
+	--font-family-sans-serif: sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #1b1b32;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0a0a23;
+	width: 100%;
+	height: 23px;
+}
+header h1 {
+	display: block;
+	color: #fff;
+	background-color: inherit;
+	font-size: 1.1rem;
+	font-weight: 300;
+}
+
+/* MAIN */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60vw;
+}
+main .title {
+	margin: 20px;
+}
+main .links {
+	width: 100%;
+}
+main .links .courses {
+	display: block;
+}
+main .links .courses .course {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #fff;
+	background-color: var(--gray-75);
+}
+main .links .courses .course label input {
+	display: block;
+	cursor: pointer;
+}
+main .links .courses .course label a {
+	display: block;
+	padding-left: 10px;
+	font-family: var(--font-family-sans-serif);
+	text-decoration: none;
+	background-color: var(--gray-75);
+}
